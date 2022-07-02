@@ -1,0 +1,55 @@
+
+.user-inputs{
+    width: 80%;
+    height:30px;
+    border-radius: 10px;
+    background-color: darkgray;
+    color:mediumblue;
+    padding-left: 1rem;
+    font-size: 20px;
+    text-align: left;
+    font-family: monospace;
+}
+.user-card {
+    text-align: center;
+    background-color: darkgray;
+    width: 40%;
+    border-radius: 30px;
+    padding: 5px;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}
+
+.submit-button {
+    text-align: left;
+    border-radius: 10px;
+    font-family: monospace;
+    font-size: 25px;
+    background-color:green;
+    color: yellow;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    transition: color 0.5s ease-in-out;
+    padding: 1%;
+}
+
+.submit-button:hover {
+    color: orange;
+}
+@media (max-width: 650px) {
+    #btnRegister {
+        font-size: 20px;
+    }
+
+    .user-card {
+        width: auto;
+        left: 15%
+    }
+}
+
+@media (max-height: 500px) {
+    .user-card {
+        top: 5%;
+    }
+}
