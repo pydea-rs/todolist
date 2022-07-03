@@ -11,7 +11,6 @@
                 $password = $_POST['password'];
 
                 $query = "SELECT " . USER_ID . ", " . USER_NAME . " FROM  `" . TABLE_USERS . "` WHERE username='$username' AND password='$password'";
-
                 $result = $connection->query($query);
                 if (!$result)
                     $response = '<p class="error">Something went wrong while obtaining data from database!</p>';

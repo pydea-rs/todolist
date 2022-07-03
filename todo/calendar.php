@@ -25,7 +25,7 @@
 
     function updateDays() {
         const month = selectMonth.options.selectedIndex;
-        if(month >= 1 && month <= 12)
+        if(month >= 0 && month <= 12)
             for(let  i = 1; i <= calendar[month].days; i++)
                 selectDay.options[selectDay.options.length] = new Option(i.toString(), i.toString());
     }

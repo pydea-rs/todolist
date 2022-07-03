@@ -39,7 +39,6 @@
                             $start_time = $row[TODO_START_TIME];
                             $end_time = $row[TODO_END_TIME];
                             $id = $row[TODO_ID];
-                            $tmp = explode(':', $end_time);
 
                             echo <<<_END
                             <tr class="todo-item">

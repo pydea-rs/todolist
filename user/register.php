@@ -9,7 +9,7 @@
                 $username = $_POST['username'];
                 $password = $_POST['password'];
 
-                if(is_numeric(($username)))
+                if(is_numeric($username))
                     $response = '<p class="error">Username can not be a number!</p>';
                 else if(strlen($username) < 3)
                     $response = '<p class="error">This username is too short!</p>';

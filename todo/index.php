@@ -13,7 +13,7 @@
     require_once 'common/config.php';
     require_once 'common/navbar.php';
 
-    if(!isset($_SESSION['username']) || !$_SESSION['username'] || !isset($_SESSION['id']) )
+    if(!isset($_SESSION[USER_NAME]) || !$_SESSION[USER_NAME] || !isset($_SESSION[USER_ID]) )
         header("Location: /login");
 ?>
 

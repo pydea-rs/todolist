@@ -36,7 +36,7 @@
                 else {
                     $query = sprintf("UPDATE `%s` SET %s=1 WHERE %s=%d AND %s=%d", TABLE_TODOS, TODO_DONE, TODO_OWNER, $userid, TODO_ID, $todo_id);
                     $result = $connection->query($query);
-                    if(!$request)
+                    if(!$result)
                         $_SESSION['response'] = '<p class="error">Something unknown went wrong!</p>';
                     else
                         $_SESSION['response'] = '<p class="success">Selected todo marked as done successfully</p>';
