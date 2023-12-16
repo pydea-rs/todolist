@@ -7,7 +7,9 @@ This folder is the modified version of todolist project, that runs on your cpane
 * You must provide the credentials of your database in a .ini file, as below:
 
     DB_USER = "your previllaged user on the database"
+
     DB_PASSWORD = "password of the previllaged user"
+    
     DB_NAME = "database name"
 
 # Running on:
