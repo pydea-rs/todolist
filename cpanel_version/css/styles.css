@@ -1,0 +1,91 @@
+body {
+    background: lightslategrey;
+    text-align: center;
+    color: black;
+    word-wrap: break-word;
+    font-family: monospace, "Times New Roman" !important;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.grayed {
+    color: grey;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.5s ease-in-out;
+}
+.nav-item:hover {
+    color: red;
+}
+.nav-item {
+    text-decoration: none;
+    display : inline;
+    color: black;
+    background: lightcoral  ;
+    border: 1px dashed orange;
+    padding: 1rem;
+    border-radius: 2rem;
+    font-size: 20px;
+    transition: padding 0.4s ease-in-out;
+}
+
+.nav-item:hover {
+    padding-right: 2%;
+    padding-left: 2%;
+}
+.nav-list-item {
+    display : inline;
+    color: black;
+    margin-right:0.25rem;
+    margin-left: 0.25rem;
+}
+nav ul {
+    margin-right: 5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.error {
+    font-weight: bold;
+    color: red;
+    border: 1px solid red;
+    padding: 1rem;
+    border-radius: 5px;
+    width: 60%;
+    margin: auto;
+}
+
+.warn {
+    font-weight: bold;
+    color: orangered;
+    border: 1px solid red;
+    padding: 1rem;
+    border-radius: 5px;
+    width: 60%;
+    margin: auto;
+}
+.success {
+    font-weight: bold;
+    color: darkgreen;
+    border: 1px solid green;
+    padding: 1rem;
+    border-radius: 5px;
+    width: 60%;
+    margin: auto;
+}
+
+@media (max-width: 650px) {
+    .nav-item {
+        font-size: 16px;
+        padding: 0.6rem;
+    }
+    .nav-item:hover {
+        padding-right:4%;
+        padding-left: 4%;
+    }
+}
