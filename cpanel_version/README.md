@@ -10,6 +10,8 @@ This folder is the modified version of todolist project, that runs on your cpane
     DB_PASSWORD = "password of the previllaged user"
     DB_NAME = "database name"
 
+# Running on:
+https://py2dos.mehrzadco.com
 # Features:
 * User authentication
 * Classify todos by working date.
